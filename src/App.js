@@ -1,24 +1,77 @@
-import logo from './logo.svg';
+import Logo from './images/Scrybe-logo.svg';
+import MyScrybe from './images/My-scrybe.svg';
+import Analysis from './images/Analysis.svg';
+import Insight from './images/Insight.svg';
+import LeaderBoard from './images/Leader-board.svg';
+import MonthlyAnalysis from './images/Monthly-Analysis.svg';
+import Settings from './images/Settings.svg';
+import Profile from './images/Profile.svg';
+
+
+
+
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <section class="left_section">
+      <nav>
+      <img
+          src={Logo}
+          className="Scrybe_logo"
+          alt="hero img"
+        />
+
+         <img
+          src={MyScrybe}
+          className=""
+          alt="hero img"
+        />
+
+        <img
+          src={Analysis}
+          className=""
+          alt="hero img"
+        />
+
+        <img
+          src={Insight}
+          className=""
+          alt="hero img"
+        />
+
+        <div className="Leader-logo">
+        <img
+          src={LeaderBoard}
+          className=""
+          alt="hero img"
+        />
+        </div>
+
+        <img
+          src={MonthlyAnalysis}
+          className=""
+          alt="hero img"
+        />
+
+       <img
+          src={Settings}
+          className=""
+          alt="hero img"
+        />
+
+      </nav>
+    </section>
+
+    <section className="right-section">
+
+
+
+
+    </section>
+    </>
   );
 }
 
