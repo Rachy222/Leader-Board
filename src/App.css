@@ -15,7 +15,7 @@
 }
 
 .left_section {
-  /* border-right: 1px solid rgb(32, 35, 40); */
+  border-right: 1px solid rgba(207, 207, 207, 0.7);
   background-color: white;
 }
 .left_section nav {
@@ -38,7 +38,7 @@
 
 .right-section{
   background-color: #ECECEC;
-  margin-left: 25px;  
+  margin-left: 25px;
   margin-right: 25px;
 }
 
@@ -64,6 +64,10 @@ input{
 
 .InputWithIcon input{
   padding-left: 20px;
+}
+
+select{
+  outline: none;
 }
 
 .right-cotent2-container{
@@ -134,7 +138,7 @@ input{
 }
 
 .Profile-img{
-  margin-bottom: -15px;
+  margin-bottom: -35px;
 }
 
 .Profile-content h1{
@@ -171,4 +175,150 @@ input{
   font-size: 14px;
   font-weight: 600;
   color: #378a47;
+}
+
+.right-section-top{
+   display: flex;
+   flex-direction: row;
+   background-color: #ffffff;
+   margin-bottom: 2rem;
+   padding-bottom: 0.5rem;
+   padding-top: 1rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   justify-content: space-between;
+}
+
+.Upload-profile-container{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Upload-button{
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: #00A4ff;
+  color: #ffffff;
+}
+
+.Page-num-container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+
+.Page-num-container p{
+  font-size: 16px;
+  color:#C5C5C5;
+  cursor: pointer;
+}
+
+.Page-num-container .page-btn-active{
+   color: black;
+}
+
+.Page-num-container .page-btn-color{
+  background-color: #006CFF;
+  padding: 0 15px;
+  color: #ffffff;
+}
+
+/* Media query*/
+@media screen and (min-width: 950px) and (max-width: 1180px) {
+.left_section{
+  display: none;
+}
+
+.content-container {
+  background-color: #f1f1f1;
+  display: grid;
+  grid-template-columns: 2.5fr;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 949px) {
+
+  .left_section{
+    display: none;
+  }
+
+  .content-container {
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 2.5fr;
+    font-family: 'Kanit', sans-serif;
+
+  }
+
+  .Profile-container{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1.5rem;
+  }
+
+  .Page-num-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  #hide-for-mobile{
+    display: none;
+  }
+
+
+}
+
+@media screen and (min-width: 350px) and (max-width: 400px) {
+  .left_section{
+    display: none;
+  }
+
+  .content-container {
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-columns: 2.5fr;
+    font-family: 'Kanit', sans-serif;
+
+  }
+
+  .Profile-container{
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 1.5rem;
+  }
+
+  .Page-num-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+
+  #hide-for-mobile{
+    display: none;
+  }
+
+  .Upload-profile-container{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+  }
+
 }

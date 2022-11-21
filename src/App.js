@@ -16,6 +16,22 @@ import Profile3 from './images/profile3.svg';
 import GreenLike from './images/Like-green.svg';
 import BlackLike from './images/Like-black.svg';
 import ProfileName from './images/Profile-name.svg';
+import ProfileName5 from './images/Profile-name5.svg';
+import ProfileName6 from './images/Profile-name6.svg';
+import ProfileName7 from './images/Profile-name7.svg';
+import ProfileName8 from './images/Profile-name8.svg';
+import ProfileName9 from './images/Profile-name9.svg';
+import ProfileName10 from './images/Profile-name10.svg';
+import ProfileName11 from './images/Profile-name11.svg';
+import ProfileName12 from './images/Profile-name12.svg';
+import ProfileName13 from './images/Profile-name13.svg';
+import ProfileName14 from './images/Profile-name14.svg';
+import ProfileName15 from './images/Profile-name15.svg';
+import ProfileName16 from './images/Profile-name16.svg';
+import ProfileUpload from './images/Profile-upload.svg';
+import UploadIcon from './images/Upload-icon.svg';
+
+
 
 
 
@@ -73,8 +89,45 @@ function App() {
         </nav>
       </section>
 
-      <section className="right-section">
+      <section>
+      <div className='right-section-top'>
+      <div className='InputWithIcon' id="hide-for-mobile">
+            <img
+              src={SearchIcon}
+              className=""
+              alt="hero img"
+            />
+            <input
+              type="text"
+              name=""
+              id="search-bar"
+              placeholder="  &nbsp; &nbsp; &nbsp; search again"
+              required
 
+            />
+          </div>
+
+           <div className='Upload-profile-container'>
+           <img
+              src={ProfileUpload}
+              className=""
+              alt="hero img"
+            />
+            <button className='Upload-button'>
+            <img
+              src={UploadIcon}
+              className=""
+              alt="hero img"
+            /> &nbsp; &nbsp;
+              upload
+            </button>
+
+
+           </div>
+
+      </div>
+
+        <div className="right-section">
         <img
           src={Agent}
           className="Agent-img"
@@ -98,7 +151,7 @@ function App() {
             />
           </div>
 
-          <p> 1-20 <span> of 100</span></p>
+          <p id='hide-for-mobile'> 1-20 <span> of 100</span></p>
 
           <div className='calender-content'>
             <img
@@ -145,9 +198,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .4k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'> NEU.CALLS</p>
                 </div>
 
 
@@ -158,9 +211,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .7k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'>NEG.CALLS</p>
                 </div>
 
 
@@ -178,8 +231,8 @@ function App() {
               />
             </div>
             <div className='Profile-content'>
-              <h2>Awesome Lily</h2>
-              <h1> 10</h1>
+              <h2>Simidi Ade</h2>
+              <h1> 8.9</h1>
               <p>Calls Received</p>
               <div className='Like-container'>
                 <div className='Like-content1'>
@@ -189,7 +242,7 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> 2.1k</p>
                   </div>
                   <p className='Like-text'> POS.CALLS</p>
                 </div>
@@ -201,9 +254,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .670k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'> NEU.CALLS</p>
                 </div>
 
 
@@ -214,9 +267,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .9k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'> NEG.CALLS</p>
                 </div>
 
 
@@ -234,8 +287,8 @@ function App() {
               />
             </div>
             <div className='Profile-content'>
-              <h2>Awesome Lily</h2>
-              <h1> 10</h1>
+              <h2>Delphine Ogbonna</h2>
+              <h1> 7.6 </h1>
               <p>Calls Received</p>
               <div className='Like-container'>
                 <div className='Like-content1'>
@@ -245,7 +298,7 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> 1.9k</p>
                   </div>
                   <p className='Like-text'> POS.CALLS</p>
                 </div>
@@ -257,9 +310,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .4k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'> NEU.CALLS</p>
                 </div>
 
 
@@ -270,9 +323,9 @@ function App() {
                       className=""
                       alt="profile1"
                     />
-                    <p> 31.k</p>
+                    <p> .7k</p>
                   </div>
-                  <p className='Like-text'> POS.CALLS</p>
+                  <p className='Like-text'> NEG.CALLS</p>
                 </div>
 
 
@@ -308,15 +361,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName5}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Kelvin  O.</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 6.7 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -327,15 +380,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName6}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> T. Black</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 6.3 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -346,15 +399,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName7}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Victor</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 6 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -365,15 +418,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName8}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Mike</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.8 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -384,15 +437,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName9}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Bello.  C</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.5 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -403,15 +456,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName10}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Elizabeth</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.4 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -422,15 +475,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName11}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Lucas</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.3 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -441,15 +494,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName12}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Violet. W</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.2 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -460,15 +513,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName13}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Khloe. F</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 5.0 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -479,15 +532,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName14}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Donald E.</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 4.9 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -498,15 +551,15 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName15}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Gozie</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 4.9 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
@@ -517,21 +570,33 @@ function App() {
           <div className='Profile-Tabular-Content'>
           <div className='Profile-Tabular-Content1'>
             <img
-              src={ProfileName}
+              src={ProfileName16}
               className=""
               alt="profile1"
             />
-            <p> Ruth Sandra</p>
+            <p> Adaobi A.</p>
           </div>
 
           <div className='Profile-Tabular-Content2'>
-            <p className='Profile-tabular-number'> 7 </p>
+            <p className='Profile-tabular-number'> 4.6 </p>
             <p className='Profile-tabular-score'> AVG Score</p>
           </div>
           </div>
 
         </div>
 
+        </div>
+
+        <div class="Page-num-container">
+                <p className="page-btn-start-page">Previous</p>
+                <p className="page-btn-active">1</p>
+                <p className="page-btn">2</p>
+                <p className="page-btn">3</p>
+                <p className="page-btn">4</p>
+                <p className="page-btn">5</p>
+                <p className="page-btn-color">Next</p>
+
+             </div>
       </section>
     </div>
   );
