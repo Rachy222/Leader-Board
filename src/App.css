@@ -9,7 +9,7 @@
 .content-container {
   background-color: #f1f1f1;
   display: grid;
-  grid-template-columns: 0.5fr 2.5fr;
+  grid-template-columns: 0.8fr 2.5fr;
   font-family: 'Kanit', sans-serif;
 
 }
@@ -32,8 +32,39 @@
   padding-left: 2rem;
 }
 
-.Leader-logo{
+.Sidebar-container-content{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.Sidebar-container-content p{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #6a6a6a;
+}
+
+.Sidebar-container-content  select{
+  font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    color: #6a6a6a;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+
+#Sidebar-content-active{
   background-color: #E6F0FF;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .right-section{
@@ -82,7 +113,7 @@ select{
 .calender-content{
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .Agent-img{
@@ -211,6 +242,7 @@ select{
   gap: 3rem;
   margin-top: 3rem;
   margin-bottom: 5rem;
+  padding-bottom: 3rem;
 }
 
 .Page-num-container p{
@@ -319,6 +351,16 @@ select{
     display: flex;
     flex-direction: row;
     gap: 6rem;
+  }
+
+  .calender-content img{
+   display: none;
+  }
+
+  .right-section{
+    background-color: #ECECEC;
+    margin-left: 0;
+    margin-right: 0;
   }
 
 }

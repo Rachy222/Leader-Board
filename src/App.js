@@ -1,12 +1,13 @@
 import './App.css';
+// import {NavLink} from 'react-router-dom'
 import React from 'react';
 import Logo from './images/Scrybe-logo.svg';
-import MyScrybe from './images/My-scrybe.svg';
-import Analysis from './images/Analysis.svg';
-import Insight from './images/Insight.svg';
-import LeaderBoard from './images/Leader-board.svg';
-import MonthlyAnalysis from './images/Monthly-Analysis.svg';
-import Settings from './images/Settings.svg';
+import MyScrybe from './images/dashboard.svg';
+import Analysis from './images/graphic.svg';
+import Insight from './images/history.svg';
+import LeaderBoard from './images/leaderboard.svg';
+import MonthlyAnalysis from './images/analytics.svg';
+import Settings from './images/Setting.svg';
 import Agent from './images/Agent-leaderboard.svg';
 import SearchIcon from './images/search-icon.svg';
 import Calender from './images/Calendar.svg';
@@ -48,43 +49,63 @@ function App() {
             alt="hero img"
           />
 
+          <div className="Sidebar-container-content">
           <img
             src={MyScrybe}
             className=""
             alt="hero img"
           />
+           <p>Scrybe</p>
 
+          </div>
+
+          <div className="Sidebar-container-content">
           <img
             src={Analysis}
             className=""
             alt="hero img"
           />
+          <p>Analysis</p>
+          </div>
 
+          <div className="Sidebar-container-content">
           <img
             src={Insight}
             className=""
             alt="hero img"
           />
+          <select id="calender-value" name="insight">
+              <option value="Insight">Insight</option>
+            </select>
+          </div>
 
-          <div className="Leader-logo">
+
+          <div className="Sidebar-container-content" id="Sidebar-content-active">
             <img
               src={LeaderBoard}
               className=""
               alt="hero img"
             />
+            <p> Leaderboard </p>
           </div>
 
+          <div className="Sidebar-container-content">
           <img
             src={MonthlyAnalysis}
             className=""
             alt="hero img"
           />
+          <p> Monthly analysis</p>
+          </div>
 
+          <div className="Sidebar-container-content">
           <img
             src={Settings}
             className=""
             alt="hero img"
           />
+          <p> Settings </p>
+          </div>
 
         </nav>
       </section>
@@ -584,9 +605,6 @@ function App() {
           </div>
 
         </div>
-
-        </div>
-
         <div class="Page-num-container">
                 <p className="page-btn-start-page">Previous</p>
                 <p className="page-btn-active">1</p>
@@ -597,6 +615,9 @@ function App() {
                 <p className="page-btn-color">Next</p>
 
              </div>
+        </div>
+
+
       </section>
     </div>
   );
